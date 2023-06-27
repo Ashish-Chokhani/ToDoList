@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
 
-const dbUrl="mongodb+srv://Ashish:chokhani@cluster0.loan8m2.mongodb.net/todoListDB";
+const dbUrl="mongodb+srv://Ashish:<password,hint: family>@cluster0.loan8m2.mongodb.net/todoListDB";
 
  const connectionParams = {
    useNewUrlParser: true,
